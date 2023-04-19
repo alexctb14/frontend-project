@@ -1,0 +1,23 @@
+.character-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.image {
+   height: 300px;
+   width: 200px;
+   background-color: white;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.card-title {
+    display: flex;
+    font-size: 12px;
+}
